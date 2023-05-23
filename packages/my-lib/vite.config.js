@@ -6,9 +6,6 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   plugins: [
     react(),
-    // dts({
-    //     insertTypesEntry: true,
-    // }),
   ],
   build: {
     sourcemap: true,
